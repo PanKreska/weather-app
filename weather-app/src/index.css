@@ -1,0 +1,59 @@
+.app {
+    min-height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+/* różne tła */
+.app.clear {
+    background: linear-gradient(#4facfe, #00f2fe);
+}
+
+.app.clouds {
+    background: linear-gradient(#bdc3c7, #2c3e50);
+}
+
+.app.rain {
+    background: linear-gradient(#4b6cb7, #182848);
+}
+
+.app.default {
+    background: #0f172a;
+}
+
+.app h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+  color: #ff4d4d;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.card img {
+    width: 100px;
+}
